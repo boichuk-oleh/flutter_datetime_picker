@@ -35,6 +35,7 @@ you can choose date / time / date&time in multiple languages:
 - Turkish(tr)
 - Vietnamese(vi)
 - Khmer(kh)
+- Ukrainian(uk)
 
 
 and you can also custom your own picker content

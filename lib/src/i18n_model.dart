@@ -32,7 +32,8 @@ enum LocaleType {
   sq,
   sv,
   kh,
-  tw
+  tw,
+  uk
 }
 
 final _i18nModel = <LocaleType, Map<String, Object>>{
@@ -1303,7 +1304,43 @@ final _i18nModel = <LocaleType, Map<String, Object>>{
     'day': ['Mån', 'Tis', 'Ons', 'Tor', 'Fre', 'Lör', 'Sön'],
     'am': 'AM',
     'pm': 'PM'
-  }
+  },
+  LocaleType.uk: {
+    'cancel': 'Скасувати',
+    'done': 'Готово',
+    'today': 'Сьогодні',
+    'monthShort': [
+      'Січ',
+      'Лют',
+      'Бер',
+      'Квіт',
+      'Трав',
+      'Черв',
+      'Лип',
+      'Серп',
+      'Вер',
+      'Жовт',
+      'Лист',
+      'Груд'
+    ],
+    'monthLong': [
+      'Січень',
+      'Лютий',
+      'Березень',
+      'Квітень',
+      'Травень',
+      'Червень',
+      'Липень',
+      'Серпень',
+      'Вересень',
+      'Жовтень',
+      'Листопад',
+      'Грудень'
+    ],
+    'day': ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Нд'],
+    'am': 'AM',
+    'pm': 'PM'
+  },
 };
 
 /// Get international object for [localeType]
